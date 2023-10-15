@@ -1,11 +1,12 @@
-import Deposit from "../components/Payment/Deposit";
+import Dashboard from "../components/Dashboard/Dashboard";
+
 
 const dashboard = {
   name: "dashboard",
   exact: true,
   protected: true,
-  path: "/",
-  component: <Deposit />,
+  path: "/dashboard",
+  component: <Dashboard />,
 };
 
 export default dashboard;

@@ -54,10 +54,10 @@ const Dashboard = ({ childern }) => {
                 {currentUser.slice(0, 1).toUpperCase()}
               </Avatar>
             ) : (
-              <h1>Campus App</h1>
+              <h1>IGURIZE APP</h1>
             )}
             <h2>{currentUser}</h2>
-            <span>@{currentUserEmail || "campus"}</span>
+            <span></span>
           </div>
         )}
 

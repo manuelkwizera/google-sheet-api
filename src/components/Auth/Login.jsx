@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Card, notification } from "antd";
 import { useNavigate } from "react-router-dom";
-import GoogleLogin from "react-google-login";
+// import GoogleLogin from "react-google-login";
 import { gapi } from "gapi-script";
 import moment from "moment";
 import "./index.scss";
@@ -95,12 +95,12 @@ const Login = () => {
     <div className="login">
       <Card>
         <h2>Login</h2>
-        <GoogleLogin
+        {/* <GoogleLogin
           clientId={process.env.REACT_APP_CLIENT_ID}
           buttonText="Connect with Google"
           onSuccess={onSuccess}
           onFailure={onFailure}
-        />
+        /> */}
       </Card>
     </div>
   );
