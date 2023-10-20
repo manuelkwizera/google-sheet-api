@@ -1,5 +1,5 @@
 {
-  "homepage": "https://manuelkwizera.github.io/google-sheet-api/",
+  "homepage": "https://manuelkwizera.github.io/google-sheet-api",
   "name": "export-data",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "master -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
