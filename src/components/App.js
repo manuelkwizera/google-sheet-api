@@ -10,7 +10,7 @@ const unprotectedRoutes = (routes || []).filter((route) => !route?.protected);
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         {unprotectedRoutes.map(({ name, path, component }) => (
           <Route key={name} path={path} exact element={component} />
@@ -24,7 +24,7 @@ const App = () => {
           />
         ))}
       </Routes>
-    </Router>
+    </HashRouter>
   );
 };
 
