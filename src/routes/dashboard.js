@@ -5,7 +5,7 @@ const dashboard = {
   name: "dashboard",
   exact: true,
   protected: true,
-  path: "/dashboard",
+  path: "/",
   component: <Dashboard />,
 };
 
