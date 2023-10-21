@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "antd/dist/antd.css";
 
 import routes from "../routes";
@@ -10,7 +10,7 @@ const unprotectedRoutes = (routes || []).filter((route) => !route?.protected);
 
 const App = () => {
   return (
-    <HashRouter>
+    <Router>
       <Routes>
         {unprotectedRoutes.map(({ name, path, component }) => (
           <Route key={name} path={path} exact element={component} />
@@ -24,7 +24,7 @@ const App = () => {
           />
         ))}
       </Routes>
-    </HashRouter>
+    </Router>
   );
 };
 
