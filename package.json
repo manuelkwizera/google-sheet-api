@@ -1,7 +1,6 @@
 {
-  "homepage": "https://manuelkwizera.github.io/google-sheet-api/#",
-  "name": "export-data",
-  "version": "0.1.0",
+  "homepage": "https://manuelkwizera.github.io/google-sheet-api",
+  "name": "expo",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
